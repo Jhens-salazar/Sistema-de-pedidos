@@ -1,0 +1,100 @@
+.body_iniciosesion{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(../imagenes/carpinteria1.1.jpg);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Boton volver */
+.volver{
+    display: flex;
+    width: 1100px;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+#volver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+#a_volver{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+
+}
+#a_volver>:hover{
+   background-color: white;
+    color: black;
+}
+.loginn{
+    display: flex;
+    flex-direction: column;
+    height: 23rem;
+    justify-content: center;
+    width: 350px;
+    color: black;
+    background-color: white;
+    padding-top: 5px;
+    border-radius:5px ;
+    box-shadow: 0 0 15px black;
+
+}
+.inputt{
+    height: 0.4rem;
+    border: none;
+}
+label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form_lgin{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+
+}
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    background-color: white;
+    color: #855d49;
+    width: 230px;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 20px auto;
+}
+input[type="submit"]{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 270px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}

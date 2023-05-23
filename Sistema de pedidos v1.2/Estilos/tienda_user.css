@@ -1,0 +1,130 @@
+#Tienda_user{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/carpinteria1.1.jpg);
+}
+.logo{
+    width: 200px;
+}
+.header_pagpi{
+    display: flex;
+    width: 100%;
+}
+.hac{
+    width: 200px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    box-shadow: none;
+}
+.menu{
+    display: flex;
+    width: 1148px;
+    flex-direction:column-reverse;
+    height: 200px;
+   background-color: black;
+}
+.ul{
+display: flex;
+background-color: black;
+width: 1100px;
+height: 60px;
+color: white;
+border-radius: none;
+justify-content: space-evenly;
+align-items:center;
+}
+.li{
+    background-color: black;
+    display: flex;
+    width: 190px;
+    height: 50px;
+    justify-content: space-evenly;
+    box-shadow: none;
+    color: white;
+    border-radius: none;
+    font-size: 20px;
+
+}
+.li>:hover{
+    background-color: #57565636;
+    color: white;
+}
+.a{
+   background-color: black;
+    display: flex;
+    text-decoration: none;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius:5px;
+    color: white;
+    box-shadow: none;
+    gap: 10px;
+    border: 1px solid white;
+}
+.cate{
+    color: white;
+}
+.tienda_muebles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+.contenedor_total{
+    flex: 1;
+    display: flex;
+    background-size: fixed;
+    background-color: black;
+
+}
+.parte_uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 666px;
+    height: auto;
+
+}
+.parte_dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 666px;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tienda_foo{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.separador_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

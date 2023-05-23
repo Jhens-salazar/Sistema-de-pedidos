@@ -1,0 +1,123 @@
+#index_admin{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/carpinteria1.1.jpg);
+}
+.saludo{
+    color: white;
+}
+.logo{
+    width: 200px;
+}
+.header_pagpi{
+    display: flex;
+    width: 100%;
+}
+.principal{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    width: 1148px;
+    flex-direction:column-reverse;
+    height: 200px;
+   background-color: black;
+}
+.ul{
+display: flex;
+background-color: black;
+width: 1100px;
+height: 50px;
+border-radius: none;
+}
+
+.li{
+    background-color: black;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: space-evenly;
+    box-shadow: none;
+    color: white;
+    border-radius: none;
+}
+.li>:hover{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.a{
+   background-color: black;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: none;
+    color: white;
+    box-shadow: none;
+}
+
+.hac{
+    width: 200px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    box-shadow: none;
+}
+
+
+/* Slider */
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 1343px;
+    height: 30rem;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 1343px;
+    height: 30rem;
+  }
+  
+  ul.slider li {
+    position: absolute;
+    width: 1342px;
+    height: 30rem;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      transition: opacity .5s;
+      background:black;
+  }
+  
+  
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  .footer_inicio{
+    display: flex;
+    width: 1340px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }

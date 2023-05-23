@@ -1,0 +1,61 @@
+.body_login{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 130px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../imagenes/carpinteria8.jpg);
+    background-size: cover;
+}
+
+
+.porr{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo_login{
+    width:180px;
+}
+.contenedor{
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+.Index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    width: 22rem;
+    height: 25rem;
+    border-radius: 5px;
+    gap: 4px;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color:white ;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.botones >:hover{
+    background-image: linear-gradient(135deg, #c7aff5 0, #a193ea 25%, #6f77e0 50%, #095fd6 75%, #004bcd 100%);
+    color: white;
+}

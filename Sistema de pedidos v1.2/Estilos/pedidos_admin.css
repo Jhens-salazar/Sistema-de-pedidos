@@ -1,0 +1,102 @@
+#body_pedidos{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/carpinteria1.1.jpg);
+}
+.logo{
+    width: 200px;
+}
+.header_pagpi{
+    display: flex;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    width: 1148px;
+    flex-direction:column-reverse;
+    height: 200px;
+   background-color: black;
+}
+.ul{
+display: flex;
+background-color: black;
+width: 1100px;
+height: 50px;
+border-radius: none;
+}
+
+.li{
+    background-color: black;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: space-evenly;
+    box-shadow: none;
+    color: white;
+    border-radius: none;
+}
+.li>:hover{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.a{
+   background-color: black;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: none;
+    color: white;
+    box-shadow: none;
+}
+
+.hac{
+    width: 200px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    box-shadow: none;
+}
+
+.tabla{
+    display: flex;
+    width: 1328px;
+    color: white;
+    justify-content: space-between;
+}
+.tr{
+    width: 1328px;
+}
+.th{
+    border: 1px solid;
+    width: 1330px;
+}
+.form{
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    align-items: center;
+    border: 1px solid;
+}
+.footer_inicio{
+    display: flex;
+    width: 1340px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
